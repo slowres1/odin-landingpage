@@ -4,14 +4,66 @@
     border-color: red;
 }
 
+body {
+    font-family: 'roboto', sans-serif;
+}
+
 body,
-.content,
-.herotext,
-.info-section,
+.main-content,
+#herotext,
+#info-section,
 .box {
     flex-direction: column;
     justify-content: center;
 
+}
+
+.header,
+.content-box {
+    padding-left: 10%;
+    padding-right: 10%;;
+}
+
+.header,
+#banner {
+    background-color: #1F2937;
+}
+
+.header {
+    align-items: center;
+    color: #F9FAF8;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#banner {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+#herotext {
+    flex: 1 0 auto;
+    flex-wrap: wrap;
+    width: 40%;
+}
+
+.image {
+    display: flex;
+    flex: 1 0 auto;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+}
+
+.whitespace {
+    flex: 1;
 }
 
 .info-image {
