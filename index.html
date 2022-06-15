@@ -8,26 +8,29 @@
     <title>Odin Landing Page</title>
 </head>
 <body>
-    <div class="header">
-        <h2>Header Logo</h2>
-        <div class="whitespace"></div>
-        <div class="links">
-            <a>header link 1</a>
-            <a>header link 2</a>
-            <a>header link 3</a>
-        </div>
-    </div>
-    <div class="main-content">
-        <div class="content-box" id="banner">
-            <div id="herotext">
-                <h1>This website is awesome</h1>
-                <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
-                <button id="herobutton">Sign up</button>
-            </div>
-            <div class="image">
-                <p>this is a placeholder for an image</p>
+    <div class="background blue">
+        <div class="header">
+            <h2>Header Logo</h2>
+            <div class="whitespace"></div>
+            <div class="links">
+                <a>header link 1</a>
+                <a>header link 2</a>
+                <a>header link 3</a>
             </div>
         </div>
+        
+            <div class="content-box" id="banner">
+                <div id="herotext">
+                    <h1>This website is awesome</h1>
+                    <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
+                    <button id="herobutton">Sign up</button>
+                </div>
+                <div class="image">
+                    <p>this is a placeholder for an image</p>
+                </div>
+            </div>
+    
+    <div class="background white">
         <div class="content-box" id="info-section">
             <h3>Some random information.</h3>
             <div class="info-boxes">
@@ -49,11 +52,15 @@
                 </div>
             </div>
         </div>
-        <div class="content-box">
+    </div>
+    <div class="background" id="grey">
+        <div class="content-box" id="quote-section">
             <p class="quote">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
-            <p class="quote-attribution">-Thor, God of Thunder</p>
+            
+            <div style="display:flex; justify-content: right;"><p class="quote-attribution">-Thor, God of Thunder</p></div>
         </div>
-        <div class="content-box">
+    <div class="background white">
+        <div class="content-box cta">
             <div class="call-to-action">
                 <div class="text">
                     <h4>Call to action! It's time!</h4>
@@ -63,8 +70,12 @@
             </div>
         </div>
     </div>
-    <div class="content-box">
-        <p>Copyright The Odin Project 2021</p>
+    </div>
+    </div>
+    <div class="background blue">
+        <div class="content-box">
+            <p>Copyright The Odin Project 2021</p>
+        </div>
     </div>
 </body>
 </html>
